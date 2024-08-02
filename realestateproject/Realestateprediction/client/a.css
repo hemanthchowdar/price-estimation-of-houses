@@ -1,0 +1,195 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #141414;
+    color: #fff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #f8f8f8;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #141414;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.properties {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.property-card {
+    text-align: center;
+}
+
+.property-card img {
+    width: 120%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #141414;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.jp{
+  height:170px;
+}
+/* ... (previous styles) ... */
+
+.contact-form {
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 50px 20px;
+}
+
+.contact-form h2 {
+    color: #141414;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin: 15px 0 5px;
+    color: #141414;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #141414;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+/* ... (remaining styles) ... */
+/* ... (previous styles) ... */
+
+/* ... (previous styles) ... */
+
+.form-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+
+.form {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form h2 {
+    color: #141414;
+    margin-bottom: 15px;
+}
+
+.area,
+.location {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.switch-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.switch-field input[type="radio"] {
+    display: none;
+}
+
+.switch-field label {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.switch-field input[type="radio"]:checked + label {
+    background-color: #141414;
+    color: #fff;
+}
+
+.submit {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #141414;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* ... (remaining styles) ... */
